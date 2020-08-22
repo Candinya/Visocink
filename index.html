@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>Visocink</title>
+    <link rel="stylesheet" href="./sources/css/main.css" type="text/css" media="all">
+</head>
+<body>
+
+    <div id="graph"></div>
+
+    <div id="sidebar">
+        <h1>社交关系可视化</h1>
+        <div id="panel">
+            <div>姓名: <span id="u-name"></span></div>
+            <div>年龄: <span id="u-age"></span></div>
+            <div>学校: <span id="u-edu"></span></div>
+            <div>工作: <span id="u-work"></span></div>
+            <div>关于: <span id="u-about"></span></div>
+            <div>群组: (<span id="u-groups-count"></span>)<ul id="u-groups"></ul></div>
+            <div>好友: (<span id="u-friends-count"></span>)<ul id="u-friends"></ul></div>
+            <div>可能认识的人: 
+                <ul>
+                    <li><div>校友: (<span id="u-might-alumna-count"></span>)<ul id="u-might-alumna"></ul></div></li>
+                    <li><div>同事: (<span id="u-might-colleague-count"></span>)<ul id="u-might-colleague"></ul></div></li>
+                    <li><div>群友: (<span id="u-might-group-count"></span>)<ul id="u-might-group"></ul></div></li>
+                    <li><div>间接好友: (<span id="u-might-friend-count"></span>)<ul id="u-might-friend"></ul></div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@antv/g6@3.6.1/dist/g6.min.js"></script>
+    <script src="/sources/js/main.js"></script>
+</body>
+</html>

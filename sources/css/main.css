@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, .2)
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  background: #333;
+}
+
+#sidebar {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    color: #fff;
+    background-color: #0008;
+}
+
+#sidebar>h1 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#sidebar #panel {
+    margin-left: 20px;
+    overflow-y: auto;
+    height: 80%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+#sidebar #panel>div {
+    padding: 2px;
+    background-color: #282c3460;
+    border-radius: 3px;
+}
+
+#sidebar #panel div:not(:first-child) {
+    margin-top: 5px;
+}

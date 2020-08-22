@@ -1,0 +1,24 @@
+{
+  "name": "visocink",
+  "version": "1.0.0",
+  "description": "Visible social link",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen": "node datagen.js",
+    "run": "npx http-server -c-1"
+  },
+  "keywords": [
+    "visualize",
+    "social",
+    "link"
+  ],
+  "author": "Candinya",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "lorem-ipsum": "^2.0.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
